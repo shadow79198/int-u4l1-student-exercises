@@ -21,6 +21,7 @@ button.addEventListener("click", function() {
 
 
     // DO NOT CHANGE THIS CODE
+    // so if u add a tag it can make it go down
     let resultsDiv = document.querySelector('#results');
     resultsDiv.innerHTML = "";
     resultsDiv.innerHTML += `<p>Text: ${text}</p>`;
